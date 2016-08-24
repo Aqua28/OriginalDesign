@@ -6,6 +6,7 @@ void setup()
 }
 void draw()
 {
+<<<<<<< HEAD
 
 	house();
 	roof();
@@ -44,6 +45,12 @@ void clouds()
 	ellipse(position+8, 20, 20, 15);
 	ellipse(position+15, 20, 22, 10);
 	position = positiion + 4;
+=======
+  ellipse(50,50,50,50);
+fill(20, 30, 10);
+	ellipse(50, 50, 20, 20);
+rect(30, 20, 20, 20);
+>>>>>>> 19541b663f786460315cbe2ef4ff401b6c32ad54
 
 }
 	
