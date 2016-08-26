@@ -1,13 +1,15 @@
 void setup()
 {
   size(200,200);
-  background(82, 151, 171);
   
 }
+
+int position = 30;
+
 void draw()
 {
-<<<<<<< HEAD
-
+	background(82, 151, 171);
+	ellipse(100, 100, 100, 100)
 	house();
 	roof();
 	door();
@@ -19,7 +21,7 @@ void draw()
 void roof()
 {
 	fill(30, 200, 70);
-	triangle(30, 80,100, 30, 160,80);
+	triangle(30, 80, 100, 30, 160,80);
 
 }
 
@@ -37,9 +39,8 @@ void door()
 
 }
 
-void clouds()
+void draw()
 {
-	int position = 30;
 
 	fill(171, 171, 171, 10);
 	ellipse(position, 20, 20, 10);
