@@ -10,6 +10,7 @@ void draw()
 	background(100, 100, 100);
 	square1();
 	square2();
+	square3();
 }
 
 void square1()
@@ -26,5 +27,11 @@ void square2()
 	fill(120, 100, 200);
 	rect(50, 50, width1, width1);
 
+}
 
+void square3()
+{
+	width1 = width1 + (1/2);
+	fill(200, 50, 90);
+	rect(100, 100, width1, width1);
 }
