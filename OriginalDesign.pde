@@ -1,6 +1,6 @@
 void setup()
 {
-  size(200,200);
+  size(400,400);
   
 }
 
@@ -9,7 +9,6 @@ int position = 30;
 void draw()
 {
 	background(82, 151, 171);
-	ellipse(100, 100, 100, 100)
 	house();
 	roof();
 	door();
