@@ -7,7 +7,7 @@ void setup()
 
 void draw()
 {
-	background(100, 100, 100);
+	background(10, 100, 100);
 	square1();
 	square2();
 	square3();
