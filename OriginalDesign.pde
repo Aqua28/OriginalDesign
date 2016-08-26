@@ -1,4 +1,4 @@
-int width = 20;
+int width1 = 20;
 
 void setup()
 {
@@ -7,22 +7,24 @@ void setup()
 
 void draw()
 {
+	background(100, 100, 100);
 	square1();
 	square2();
 }
 
 void square1()
 {
-	width+=1;
+	width1+=5;
 	fill(120, 200, 100);
-	rect(200, 200, 1width, 2width);
+	rect(0, 0, width1, width1);
 
 }
 
 void square2()
-{
+{ 
+	width1 = width1 + 2;
 	fill(120, 100, 200);
-	rect(200, 200);
+	rect(50, 50, width1, width1);
 
 
 }
