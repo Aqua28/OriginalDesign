@@ -14,7 +14,7 @@ void draw()
 
 void square1()
 {
-	width1+=5;
+	width1+=2;
 	fill(120, 200, 100);
 	rect(0, 0, width1, width1);
 
@@ -22,7 +22,7 @@ void square1()
 
 void square2()
 { 
-	width1 = width1 + 2;
+	width1 = width1 + 1;
 	fill(120, 100, 200);
 	rect(50, 50, width1, width1);
 
